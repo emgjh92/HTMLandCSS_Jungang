@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+	#box1{
+		width:200px;
+		height: 200px;
+		background-color: blue;
+		float:left;
+	}
+	#box2{
+		width:200px;
+		height: 200px;
+		background-color: red;
+		float:left;
+	}
+	.boxes{
+		width:200px;
+		height: 200px;
+		background-color: blueviolet;
+		float:left;
+	}
+	.small_boxes{
+		width:45px;
+		height: 45px;
+		background-color: orange;
+		float:left;
+	}
+	#wrapper{
+
+		width: 1024px;
+		height: 768px;
+		border:3px solid black;
+	}
+</style>
+</head>
+
+<body>
+    <div id="wrapper">
+
+    <div id="box1"><div class="small_boxes"></div></div>
+    <div id="box2"></div>
+    <div class="boxes"></div>
+    <div class="boxes"></div>
+    <div class="boxes">
+    	<div class="small_boxes"></div>
+    	<div class="small_boxes"></div>
+    	<div class="small_boxes"></div>
+    	<div class="small_boxes"></div>
+    	<div class="small_boxes"></div>
+    	<div class="small_boxes"></div>
+    </div>
+    <div class="boxes"></div>
+    <div class="boxes"></div>
+    <div class="boxes"></div>
+
+</div> <!--전체 박스를 wrapper로 감싸서 창을 줄이더라도 UI가 깨지지 않도록 한다-->
+</body>
+</html>
+

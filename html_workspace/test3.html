@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        /* 스타일 주석 */
+        li{
+            color: black;
+            font-size:25px;
+        }
+       #u2 li{
+            color: green;
+            font-size:30px;
+        }
+
+        #xxx1, #qqqq{
+            color: #CB1616;
+            font-size:40px;
+        }
+
+        div{
+            color:blue;
+            font-size: 25px;
+        }
+        .eee1{
+            color:#0E6A69;
+            font-size: 45px;
+        }
+        /* 클래스 선택시엔 .선택자 */
+        #rrrr{
+            color:tomato;
+            font-size: 55px;
+        }
+        /* 우선순위 : id => 클래스 => 태그 */
+        
+        .big_size_font{
+            font-size: 55px;
+        }
+        
+        .red_color{
+            color:red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li>안녕하세요</li>
+        <li>안녕하세요</li>
+        <li id="xxx1">안녕하세요</li>
+        <li>안녕하세요</li>
+        <li>안녕하세요</li>
+        <li id="qqqq">안녕하세요</li>
+    </ul>
+    <ul>
+        <li id="rrrr" class="eee1">반갑습니다</li>
+        <li>반갑습니다</li>
+        <li class="eee1">반갑습니다</li>
+        <li>반갑습니다</li>
+        <li>반갑습니다</li>
+        <li class="eee1">반갑습니다</li>
+    </ul>
+    <ul id="u1">
+        <li>안녕하세요</li>
+        <li>안녕하세요</li>
+        <li class="big_size_font red_color">안녕하세요</li>
+        <li>안녕하세요</li>
+        <li>안녕하세요</li>
+        <li>안녕하세요</li>
+    </ul>
+    <ul id="u2">
+        <li>반갑습니다</li>
+        <li>반갑습니다</li>
+        <li>반갑습니다</li>
+        <li>반갑습니다</li>
+        <li>반갑습니다</li>
+        <li>반갑습니다</li>
+    </ul>
+
+    <div>DIV 내용...</div>
+</body>
+
+</html>
