@@ -1,0 +1,180 @@
+	*{
+		margin:0px;
+		padding:0px;
+	
+	}
+
+	ul{
+		font-size: 11px;
+	}
+
+/*#00a8ab*/
+	#wrapper{
+		width:1100px;
+		height:800px;
+		background-color: white;
+		margin: 30px auto;
+	}
+	#top{
+		width:1100px;
+		height:100px;
+		background-color: white;
+		border-bottom: 1px solid gray;
+		}
+	#middle{
+		width:1100px;
+		height: 530px;
+	}
+	#bottom{
+		width:1100px;
+		height: 150px;
+		background-color: white;
+		border-top:2px solid white;
+	}
+	#t1{
+		width: 200px;
+		height:100px;
+		background-color: white;
+		float: left;
+	}
+	#t2{
+		width: 600px;
+		height:100px;
+		background-color: white;
+		float: left;
+	}
+	#t3{
+		width: 300px;
+		height:100px;
+		background-color: white;
+		float: left;
+	}
+	#logobox{
+		width: 170px;
+		height: 70px;
+		background-color: white;
+		float:left;
+		margin:20px 20px 20px 20px;	
+
+	}
+	#moto{
+		width: 180px;
+		height: 26px;
+		background-color: white;
+		float:left;
+		margin:50px 150px 5px 0px;	
+
+	}
+	.menu{
+		width: 158px;
+		height: 41px;
+		background-color: white;
+		float:left;
+		margin:25px 10px 10px 45px;	
+	}
+	.banner{
+		width: 246px;
+		height: 90px;
+		background-color: #00a8ab;
+		float:left;
+		margin:10px 50px 10px 50px;	
+	}
+	#banner_error{
+		width: 246px;
+		height: 90px;
+		background-color: #00a8ab;
+		float:left;
+		margin:0px 50px 10px 50px;	
+	}
+	#b_left{
+		width:550px;
+		height: 150px;
+		background-color: white;
+		float:left;
+		font-size: smaller;
+		border-top: 1px solid gray;
+
+		}
+	#b_right{
+		width:550px;
+		height: 150px;
+		background-color: white;
+		float:left;
+		font-size: 20px;
+		border-top: 1px solid gray;
+
+	}
+	.m3{
+		width: 366px;
+		height: 170px;
+		background-color: white;
+		float:left;
+	}
+	#more_customer{
+		background-color:white;
+		float: right;
+		margin:10px 50px 10px 10px;
+	}
+	#customercenter{
+		background-color: white;
+		float: left;
+		margin:10px 10px 10px 10px;
+	}
+	#more_notice{
+		background-color: white;
+		float: right;
+		margin:0px 10px 10px 10px;
+	}
+	#notice{
+		background-color: white;
+		float: left;
+		margin:10px 0px 0px 0px;
+		font-size: 14px;
+		width:366px;
+		height: 170px;
+	}
+	#banner_faq{
+		background-color: white;
+		float: right;
+		margin:10px 10px 10px 10px;
+	}
+	.m_last_{
+		width: 180px;
+		height: 170px;
+		background-color: white;
+		float:left;
+		text-indent: 2em;
+	}
+	#m4{
+		width: 1100px;
+		height: 170px;
+	}
+	.potal, #potal_{
+		float:right;
+	}
+	#banner_bar{
+		float:left;
+		background-color: #00a8ab;
+		margin:0px 0px 0px 0px;
+
+	}
+	#bannerbox{
+		background-color: #00a8ab;
+		height: 110px;
+	}
+	#menu_box{
+		height: 70px;
+	}
+	h4{
+		color: #00a8ab;
+	}
+	.m_last_ ul{
+		color:#00a8ab; 
+	}
+	.m_last_ ul li div{
+		color:black; 
+	}
+	#last_center{
+		color:#00a8ab; 
+		font-weight: bold;
+	}

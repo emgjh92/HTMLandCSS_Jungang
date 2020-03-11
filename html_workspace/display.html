@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        #box1{
+            border:1px solid black;
+            display: block; /*display의 default value 는 block 이다.*/
+        }
+        li{
+            border:1px solid black;
+            display: inline;
+        }
+        .box2{
+            border:1px solid black;
+            display: inline;
+            /* height:100px;==>inline 속성은 높이를 바꿀 수 없다. */
+        }
+        .box3{
+            border:1px solid black;
+            display: inline-block; /* inline-block은 높이 조절이 가능하다 */
+            height:100px
+        }
+        #ds-none{
+            display: none; /*박스와 박스가 차지하는 공간 자체를 숨김 */
+        }
+        #ds-hidden{
+            visibility: hidden; /*박스는 숨기되 공간 자체는 비어진 상태로 됨*/
+        }
+    </style>
+</head>
+<body>
+    <div id="box1">안녕하세요 <br> 반갑습니다 </div>
+    <ul>
+        <li>안녕하세요</li>
+        <li>안녕하세요</li>
+        <li>안녕하세요</li>
+        <li>안녕하세요</li>
+    </ul>
+
+    <div class="box2">안녕하세요</div>
+    <div class="box2">안녕하세요</div>
+    <div class="box2" id="ds-none">test 안녕하세요</div>
+    <div class="box2">안녕하세요</div>
+    <div class="box2">안녕하세요</div>
+    <div class="box2" id="ds-hidden">안녕하세요</div>
+
+
+
+
+    <div class="box3">반갑습니다</div>
+
+
+</body>
+</html>
